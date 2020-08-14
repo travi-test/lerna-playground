@@ -3,7 +3,9 @@
   "private": true,
   "description": "an attempt to learn how lerna and semantic-release might be able to work together",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "npm-run-all --print-label --parallel lint:* --parallel test:*",
+    "lint:lockfile": "lockfile-lint --path package-lock.json --type npm --validate-https --allowed-hosts npm",
+    "test:packages": "lerna run --parallel test"
   },
   "repository": "travi-test/lerna-playground",
   "keywords": [
