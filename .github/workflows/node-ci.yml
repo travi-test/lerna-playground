@@ -17,4 +17,5 @@ jobs:
         with:
           node-version: 12.x
       - uses: bahmutov/npm-install@v1
+      - run: npm run bootstrap
       - run: npm test
