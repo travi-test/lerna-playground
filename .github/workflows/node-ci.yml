@@ -19,3 +19,6 @@ jobs:
       - uses: bahmutov/npm-install@v1
       - run: npm run bootstrap
       - run: npm test
+        env:
+          FORCE_COLOR: 1
+          NPM_CONFIG_COLOR: always
