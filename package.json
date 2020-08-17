@@ -6,7 +6,8 @@
     "bootstrap": "lerna bootstrap --hoist",
     "test": "npm-run-all --print-label --parallel lint:* --parallel test:*",
     "lint:lockfile": "lockfile-lint --path package-lock.json --type npm --validate-https --allowed-hosts npm",
-    "test:packages": "lerna run --parallel test"
+    "test:packages": "lerna run --parallel test",
+    "release": "lerna exec --concurrency 1 -- npx --no-install semantic-release -e semantic-release-monorepo"
   },
   "repository": "travi-test/lerna-playground",
   "keywords": [
