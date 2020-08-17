@@ -25,3 +25,6 @@ jobs:
       - run: npm run bootstrap
       - run: npm test
       - run: lerna exec --concurrency 1 -- npx --no-install semantic-release -e semantic-release-monorepo
+        env:
+          GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+          NPM_TOKEN: ${{ secrets.NPM_PUBLISH_TOKEN }}
