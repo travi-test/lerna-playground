@@ -33,7 +33,9 @@ $ npm install @travi/foo
 ### Example
 
 ```javascript
-import foo from '@travi/foo';
+import {foo} from '@travi/foo';
+
+foo();
 ```
 
 ## Contributing
