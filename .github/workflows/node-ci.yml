@@ -24,3 +24,4 @@ jobs:
       - uses: bahmutov/npm-install@v1
       - run: npm run bootstrap
       - run: npm test
+      - run: lerna exec --concurrency 1 -- npx --no-install semantic-release -e semantic-release-monorepo
