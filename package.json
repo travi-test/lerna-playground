@@ -3,7 +3,7 @@
   "private": true,
   "description": "an attempt to learn how lerna and semantic-release might be able to work together",
   "scripts": {
-    "bootstrap": "lerna bootstrap --hoist",
+    "bootstrap": "lerna bootstrap",
     "test": "npm-run-all --print-label --parallel lint:* --parallel test:*",
     "lint:lockfile": "lockfile-lint --path package-lock.json --type npm --validate-https --allowed-hosts npm",
     "test:packages": "lerna run --parallel test",
@@ -19,6 +19,7 @@
   "bugs": "https://github.com/travi-test/lerna-playground/issues",
   "homepage": "https://github.com/travi-test/lerna-playground#readme",
   "devDependencies": {
+    "cz-conventional-changelog": "3.3.0",
     "husky": "5.0.4",
     "lerna": "3.22.1",
     "lockfile-lint": "4.3.7",
