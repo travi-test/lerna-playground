@@ -46,7 +46,7 @@
     "@istanbuljs/nyc-config-babel": "3.0.0",
     "@travi/any": "2.0.17",
     "@travi/babel-preset": "3.0.60",
-    "@travi/eslint-config": "1.0.76",
+    "@travi/eslint-config": "1.0.77",
     "@travi/eslint-config-mocha": "1.0.12",
     "babel-plugin-istanbul": "6.0.0",
     "ban-sensitive-files": "1.9.16",
