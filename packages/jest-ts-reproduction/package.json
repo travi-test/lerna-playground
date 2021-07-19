@@ -50,7 +50,7 @@
     "@travi/eslint-config-jest": "1.0.21",
     "babel-plugin-istanbul": "6.0.0",
     "ban-sensitive-files": "1.9.16",
-    "codecov": "3.8.2",
+    "codecov": "3.8.3",
     "cross-env": "7.0.3",
     "jest": "27.0.6",
     "jest-when": "3.3.1",
