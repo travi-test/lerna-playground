@@ -60,6 +60,10 @@ $ npm install
 $ npm test
 ```
 
+### Related packages
+
+* [bar](../bar#usage)
+
 [PRs-link]: http://makeapullrequest.com
 
 [PRs-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg
