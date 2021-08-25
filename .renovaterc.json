@@ -1,1 +1,4 @@
-{"extends":["github>form8ion/renovate-config"]}
+{
+  "extends":["github>form8ion/renovate-config"],
+  "updateInternalDeps": true
+}
