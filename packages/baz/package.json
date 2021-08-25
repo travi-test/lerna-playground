@@ -67,6 +67,6 @@
     "sinon": "11.1.2"
   },
   "dependencies": {
-    "@travi/bar": "^1.0.0"
+    "@travi/bar": "^2.0.0"
   }
 }
