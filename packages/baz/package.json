@@ -65,5 +65,8 @@
     "rollup": "2.56.3",
     "rollup-plugin-auto-external": "2.0.0",
     "sinon": "11.1.2"
+  },
+  "dependencies": {
+    "@travi/bar": "^1.0.0"
   }
 }
