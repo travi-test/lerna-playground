@@ -36,6 +36,10 @@ $ npm install @travi/bar
 import bar from '@travi/bar';
 ```
 
+## Simulation of impactful changes
+
+* broke the public interface
+
 ## Contributing
 
 <!--contribution-badges start -->
