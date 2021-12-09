@@ -47,7 +47,7 @@
     "@travi/any": "2.0.19",
     "@travi/babel-preset": "3.0.69",
     "@travi/eslint-config": "1.0.90",
-    "@travi/eslint-config-mocha": "1.0.12",
+    "@travi/eslint-config-mocha": "1.0.14",
     "babel-plugin-istanbul": "6.1.1",
     "ban-sensitive-files": "1.9.16",
     "chai": "4.3.4",
