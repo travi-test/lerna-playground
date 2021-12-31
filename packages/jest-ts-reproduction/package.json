@@ -47,7 +47,7 @@
     "@travi/any": "2.0.19",
     "@travi/babel-preset": "3.0.70",
     "@travi/eslint-config": "1.0.93",
-    "@travi/eslint-config-jest": "1.0.38",
+    "@travi/eslint-config-jest": "1.0.39",
     "babel-plugin-istanbul": "6.1.1",
     "ban-sensitive-files": "1.9.16",
     "codecov": "3.8.3",
