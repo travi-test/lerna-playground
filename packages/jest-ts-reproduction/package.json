@@ -42,7 +42,7 @@
     "lint:peer": "npm ls >/dev/null"
   },
   "devDependencies": {
-    "@babel/register": "7.16.8",
+    "@babel/register": "7.16.9",
     "@istanbuljs/nyc-config-babel": "3.0.0",
     "@travi/any": "2.0.19",
     "@travi/babel-preset": "3.0.72",
