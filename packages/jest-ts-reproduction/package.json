@@ -49,7 +49,7 @@
     "@travi/eslint-config": "1.0.94",
     "@travi/eslint-config-jest": "1.0.44",
     "babel-plugin-istanbul": "6.1.1",
-    "ban-sensitive-files": "1.9.17",
+    "ban-sensitive-files": "1.9.18",
     "codecov": "3.8.3",
     "cross-env": "7.0.3",
     "jest": "27.5.1",
