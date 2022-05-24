@@ -64,7 +64,7 @@
     "rimraf": "3.0.2",
     "rollup": "2.74.1",
     "rollup-plugin-auto-external": "2.0.0",
-    "ts-jest": "28.0.2"
+    "ts-jest": "28.0.3"
   },
   "dependencies": {}
 }
