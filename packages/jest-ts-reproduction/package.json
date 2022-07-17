@@ -36,27 +36,23 @@
     "build:js": "rollup --config",
     "watch": "run-s 'build:js -- --watch'",
     "prepack": "run-s build",
-    "test:unit": "cross-env NODE_ENV=test nyc run-s test:unit:base",
-    "coverage:report": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
+    "test:unit": "cross-env NODE_ENV=test c8 run-s test:unit:base",
     "test:unit:base": "DEBUG=any jest --testPathPattern=src/.*\\.test\\.js$",
     "lint:peer": "npm ls >/dev/null"
   },
   "devDependencies": {
     "@babel/register": "7.18.6",
-    "@istanbuljs/nyc-config-babel": "3.0.0",
     "@travi/any": "2.1.5",
     "@travi/babel-preset": "3.0.89",
     "@travi/eslint-config": "3.0.5",
     "@travi/eslint-config-jest": "1.0.58",
-    "babel-plugin-istanbul": "6.1.1",
     "ban-sensitive-files": "1.9.18",
-    "codecov": "3.8.3",
+    "c8": "7.11.3",
     "cross-env": "7.0.3",
     "jest": "28.1.3",
     "jest-when": "3.5.1",
     "lockfile-lint": "4.7.6",
     "npm-run-all": "4.1.5",
-    "nyc": "15.1.0",
     "remark-cli": "11.0.0",
     "remark-preset-lint-travi": "4.0.1",
     "remark-toc": "8.0.1",
@@ -65,6 +61,5 @@
     "rollup": "2.77.0",
     "rollup-plugin-auto-external": "2.0.0",
     "ts-jest": "28.0.7"
-  },
-  "dependencies": {}
+  }
 }
