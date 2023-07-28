@@ -47,7 +47,7 @@
     "@travi/eslint-config": "3.0.35",
     "@travi/eslint-config-jest": "1.0.84",
     "ban-sensitive-files": "1.9.19",
-    "c8": "8.0.0",
+    "c8": "8.0.1",
     "cross-env": "7.0.3",
     "jest": "29.6.1",
     "jest-when": "3.5.2",
