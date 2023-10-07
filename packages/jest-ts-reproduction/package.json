@@ -46,7 +46,7 @@
     "@travi/babel-preset": "3.0.112",
     "@travi/eslint-config": "4.0.5",
     "@travi/eslint-config-jest": "1.0.86",
-    "ban-sensitive-files": "1.10.0",
+    "ban-sensitive-files": "1.10.1",
     "c8": "8.0.1",
     "cross-env": "7.0.3",
     "jest": "29.7.0",
