@@ -27,6 +27,6 @@
     "lockfile-lint": "4.12.1",
     "npm-run-all2": "6.1.2",
     "semantic-release": "23.0.0",
-    "semantic-release-monorepo": "8.0.1"
+    "semantic-release-monorepo": "8.0.2"
   }
 }
