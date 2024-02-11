@@ -24,7 +24,7 @@
     "cz-conventional-changelog": "3.3.0",
     "husky": "9.0.10",
     "lerna": "6.6.2",
-    "lockfile-lint": "4.12.1",
+    "lockfile-lint": "4.13.0",
     "npm-run-all2": "6.1.2",
     "semantic-release": "23.0.2",
     "semantic-release-monorepo": "8.0.2"
