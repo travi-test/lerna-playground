@@ -60,6 +60,6 @@
     "rimraf": "6.0.1",
     "rollup": "4.37.0",
     "rollup-plugin-auto-external": "2.0.0",
-    "ts-jest": "29.2.6"
+    "ts-jest": "29.3.0"
   }
 }
