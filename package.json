@@ -25,7 +25,7 @@
     "husky": "9.1.7",
     "lerna": "6.6.2",
     "lockfile-lint": "4.14.1",
-    "npm-run-all2": "8.0.2",
+    "npm-run-all2": "8.0.3",
     "semantic-release": "24.2.4",
     "semantic-release-monorepo": "8.0.2"
   }
