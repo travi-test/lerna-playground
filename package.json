@@ -26,7 +26,7 @@
     "lerna": "6.6.2",
     "lockfile-lint": "4.14.1",
     "npm-run-all2": "8.0.4",
-    "semantic-release": "24.2.7",
+    "semantic-release": "24.2.8",
     "semantic-release-monorepo": "8.0.2"
   }
 }
