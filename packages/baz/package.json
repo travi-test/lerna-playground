@@ -60,7 +60,7 @@
     "rimraf": "6.1.2",
     "rollup": "4.53.5",
     "rollup-plugin-auto-external": "2.0.0",
-    "sinon": "21.0.0"
+    "sinon": "21.0.1"
   },
   "dependencies": {
     "@travi/bar": "^2.0.0"
