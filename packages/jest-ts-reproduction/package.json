@@ -44,7 +44,7 @@
     "@babel/register": "7.29.3",
     "@travi/any": "3.3.0",
     "@travi/babel-preset": "3.0.148",
-    "@travi/eslint-config": "4.0.5",
+    "@travi/eslint-config": "5.0.14",
     "@travi/eslint-config-jest": "1.0.91",
     "ban-sensitive-files": "1.10.11",
     "c8": "11.0.0",
